@@ -16,3 +16,11 @@ for (let i = 0; i < gridSize; i++){
   arr[i] = arr1;
 }
 
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = "Size: " + slider.value.toString(); // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider.oninput = function() {
+  output.innerHTML = "Size: " + slider.value.toString();
+}

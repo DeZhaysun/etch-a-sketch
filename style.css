@@ -37,6 +37,19 @@ button {
   height: 6vh;
   padding: 3vh;
   font-size: 4vh;
+  background-color: #F7E7CE;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: black;
+  color: #F7E7CE;
+}
+
+.clicked {
+  background-color: black;
+  color: #F7E7CE;
 }
 
 /*slider*/
@@ -61,11 +74,12 @@ button {
   width: 70vh;
   height: 15px;
   border-radius: 5px;  
-  background: #d3d3d3;
+  background: #F7E7CE;
   outline: none;
-  opacity: 0.7;
+  opacity: 0.8;
   -webkit-transition: .2s;
   transition: opacity .2s;
+  border: 1px solid black;
 }
 
 .slider::-webkit-slider-thumb {

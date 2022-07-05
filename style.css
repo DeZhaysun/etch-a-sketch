@@ -12,20 +12,20 @@ body {
 }
 
 .title {
-  font-size: 10vh;
-  margin: 7vh;
+  font-size: 8vh;
+  margin-top: 6vh;
+  margin-bottom: 4vh;
 }
 
 .container {
-  width: 50vh;
-  height: 50vh;
-  border: 2px solid black;
+  width: 58vh;
+  height: 58vh;
+  border: 1px solid black;
 }
 
 .grid {
   background-color: white;
   box-sizing: border-box;
-  border: 1px solid black;
   display: inline-block;
 }
 
@@ -35,19 +35,14 @@ body {
 
 button {
   height: 6vh;
-  padding: 3vh;
+  padding: 2.5vh;
   font-size: 4vh;
   background-color: #F7E7CE;
   cursor: pointer;
   border-radius: 6px;
 }
 
-button:hover {
-  background-color: black;
-  color: #F7E7CE;
-}
-
-.clicked {
+button:hover, .clicked {
   background-color: black;
   color: #F7E7CE;
 }
@@ -61,7 +56,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   gap: 3vh;
-  margin: 5vh;
+  margin: 4vh;
   font-weight: 600;
 }
 

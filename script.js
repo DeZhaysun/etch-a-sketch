@@ -92,8 +92,8 @@ function squareDrawing(){
 }
 
 function colour(e){
+  e.preventDefault();
   if (state == 'draw' && (drag || e.type == 'mousedown')){
-    console.log(drag.toString() + e.type);
     e.target.style.backgroundColor = 'black';
   } else if(state == 'rainbow' && (drag || e.type == 'mousedown')){
     e.target.style.backgroundColor = `rgb(${rgb()},${rgb()},${rgb()})`;
@@ -101,4 +101,3 @@ function colour(e){
     e.target.style.backgroundColor = 'white';
   }
 }
-

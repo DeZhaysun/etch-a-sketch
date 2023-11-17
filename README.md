@@ -1,3 +1,4 @@
 # etch-a-sketch
-a basic drawing website, with a variable grid size
-https://dezhaysun.github.io/etch-a-sketch/
+A drawing canvas web app, with a variable resolution size
+
+Live at https://dezhaysun.github.io/etch-a-sketch/
